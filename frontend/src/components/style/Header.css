@@ -1,0 +1,41 @@
+nav {
+  background-color: #b56576;
+}
+
+#head-link {
+  color: white;
+}
+
+.nav-link a:hover,
+.nav-link a:active,
+.navbar a.active {
+  color: white;
+  text-decoration: none;
+}
+.logoutButton {
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #b56576;
+  border: none;
+}
+
+@media (min-width: 270px) and (max-width: 768px) {
+  .logoutButton {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #b56576;
+    border: none;
+  }
+}
+@media screen and (min-width: 769px) {
+  .logoutButton {
+    text-decoration: none;
+    margin-left: 7px;
+    outline: none;
+    color: white;
+    background-color: #b56576;
+    border: none;
+  }
+}

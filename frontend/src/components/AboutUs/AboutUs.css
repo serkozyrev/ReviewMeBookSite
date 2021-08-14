@@ -1,0 +1,10 @@
+#about-image {
+  width: 80px;
+  height: 80px;
+}
+
+#box-body {
+  border-style: dotted;
+  padding: 1rem;
+  border-color: #6d597a;
+}

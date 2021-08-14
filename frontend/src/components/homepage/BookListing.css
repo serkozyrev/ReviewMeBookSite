@@ -1,0 +1,22 @@
+.bookLink {
+  text-decoration: none;
+  color: black;
+}
+.bookContainer img {
+  max-width: 100%;
+  min-height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.bookContainer .author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookLink:hover,
+.bookLink:active {
+  text-decoration: none;
+  color: black;
+}

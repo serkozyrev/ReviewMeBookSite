@@ -1,0 +1,48 @@
+.bookInfoContainer {
+  margin-top: 10px;
+}
+
+.bookItemContainer {
+  margin: 20px 0px;
+  border: none;
+  background-color: #f8f9fa;
+}
+
+.selectbookItemContainer {
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(190, 190, 190) !important;
+}
+
+.manageBookItem {
+  cursor: pointer;
+}
+
+.author {
+  margin-top: 5px;
+}
+
+.image {
+  margin-top: 10px;
+  width: 150px;
+  height: 230px;
+}
+
+.bookInfoLink,
+.bookInfoLink:hover,
+.bookInfoLink:active {
+  text-decoration: none;
+  color: black;
+}
+
+.btnMngBookItem {
+  border: none;
+  background-color: #f8f9fa;
+}
+
+@media screen and (max-width: 319px) {
+  .image {
+    width: 120px;
+    height: 190px;
+  }
+}

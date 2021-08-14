@@ -1,0 +1,10 @@
+.sub-title {
+  font-weight: bold;
+  color: #6d597a;
+}
+
+@media (min-width: 318px) and (max-width: 734px) {
+  .last-update {
+    text-align: center;
+  }
+}

@@ -1,0 +1,62 @@
+#side-navigation {
+  margin-bottom: -4%;
+}
+
+.reporter-comment {
+  border: 2px solid;
+  border-color: #6d597a;
+  padding: 5px;
+}
+.cards {
+  border: none;
+}
+
+.comments-box {
+  border: 2px solid;
+  border-color: #6d597a;
+  border-radius: 10px;
+}
+
+.btn.delete {
+  margin-top: 10px;
+  width: 160px;
+  height: 50px;
+  background-color: #6d597a;
+  color: white;
+}
+
+.btn.keep {
+  margin: 10px 0px;
+  width: 160px;
+  height: 50px;
+  background-color: #5d597a;
+  color: white;
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+  #side-navigation {
+    margin-bottom: -19%;
+  }
+  .comments-box {
+    width: 85%;
+  }
+
+  .pagination-bar {
+    left: 0;
+    padding: 0;
+    right: 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: 735px) and (max-width: 1024px) {
+  #side-navigation {
+    margin-bottom: -10%;
+  }
+  .pagination-bar {
+    left: 0;
+    padding: 0;
+    right: 0;
+    margin: 0;
+  }
+}

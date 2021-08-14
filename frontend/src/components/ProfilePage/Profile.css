@@ -1,0 +1,86 @@
+.card.profile {
+  width: 50rem;
+  margin: 0 auto;
+  float: none;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn.edit {
+  width: 160px;
+  height: 50px;
+  background-color: #6d597a;
+  color: white;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.btn.delete{
+  width: 160px;
+  height: 50px;
+  background-color: #5d597a !important;
+  color: white !important;
+  margin-top: 10px;
+}
+
+.btn.button2 {
+  width: 160px;
+  height: 50px;
+  background-color: #6d597a;
+  color: white;
+  margin-top: 10px;
+  margin-right: 20px;
+  display: none;
+}
+
+.btn.button3 {
+  width: 160px;
+  height: 50px;
+  background-color: #5d597a;
+  color: white;
+  margin-top: 10px;
+  display: none;
+}
+
+.invalid input {
+  border-color: red;
+}
+
+.text-light {
+  color: #babbbc !important;
+}
+
+.color {
+  background-color: #fff0f3;
+}
+
+.account-settings-links .list-group-item.active {
+  font-weight: bold !important;
+  background-color: lightpink;
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+  background: white !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+  padding: 0.85rem 1.5rem;
+  border-color: palevioletred !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+  color: #4e5155 !important;
+  background-color: blanchedalmond;
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+  .card.profile {
+    width: 19rem;
+  }
+}
+
+@media (min-width: 735px) and (max-width: 991px) {
+  .card.profile {
+    width: 42rem;
+  }
+}

@@ -1,0 +1,31 @@
+.card.contact {
+  margin: 0 auto;
+  float: none;
+  border-color: #f8f9fa;
+  background-color: #f8f9fa;
+}
+.btn.contact {
+  width: 160px;
+  height: 50px;
+  background-color: #6d597a;
+  color: white;
+  margin-top: 10px;
+}
+.control.invalid input {
+  border-color: red;
+}
+
+@media screen and (max-width: 734px) {
+  .card {
+    width: 19rem;
+    margin: 0 auto;
+    float: none;
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 734px) {
+  .card-body {
+    width: 30rem;
+    margin: auto;
+  }
+}

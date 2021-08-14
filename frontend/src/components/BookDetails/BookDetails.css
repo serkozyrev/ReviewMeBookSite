@@ -1,0 +1,60 @@
+textarea {
+  resize: none;
+}
+
+.detailContainer {
+  margin-top: 5vh;
+}
+
+.bookInfo {
+  margin: 5px 0px;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.bookImage {
+  width: 130px;
+  height: 200px;
+}
+
+.subContainer {
+  margin: 40px 0px;
+}
+
+.buttonContainer {
+  margin: 30px 0px;
+}
+
+.textarea {
+  height: 100px;
+  width: 100%;
+}
+
+.commentBtn {
+  text-align: right;
+  margin: 0px;
+}
+
+.btn.submit {
+  width: 160px;
+  height: 50px;
+  background-color: #6d597a;
+  color: white;
+}
+
+.desc {
+  white-space: pre-line;
+}
+
+@media only screen and (max-width: 576px) {
+  .btn.submit {
+    width: 35vw;
+    height: 6vh;
+    background-color: #6d597a;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

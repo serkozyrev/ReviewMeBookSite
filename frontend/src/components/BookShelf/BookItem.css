@@ -1,0 +1,30 @@
+.bookInfoContainer {
+  margin-top: 10px;
+}
+
+.bookItemContainer {
+  margin: 20px 0px;
+}
+
+.author {
+  margin-top: 5px;
+}
+
+.image {
+  width: 150px;
+  height: 230px;
+}
+
+.bookInfoLink,
+.bookInfoLink:hover,
+.bookInfoLink:active {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 319px) {
+  .image {
+    width: 120px;
+    height: 190px;
+  }
+}

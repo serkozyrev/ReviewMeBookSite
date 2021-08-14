@@ -1,0 +1,31 @@
+.reviewBtn {
+  border: none;
+  background-color: #f8f9fa;
+  text-decoration: underline;
+}
+
+.link {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black;
+  background-color: #f8f9fa;
+  border: none;
+  font-size: 15px;
+}
+
+.reviewItemContainer {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 576px) {
+  .nickname {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .date {
+    font-size: 4vw;
+  }
+  .link {
+    font-size: 3vw;
+  }
+}

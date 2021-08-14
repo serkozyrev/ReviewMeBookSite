@@ -1,0 +1,24 @@
+.slideImg {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 72%;
+}
+
+@media screen and (max-width: 734px) {
+  .slideImg {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 735px) and (max-width: 1134px) {
+  .slideImg {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

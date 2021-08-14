@@ -1,0 +1,38 @@
+.login {
+  width: 40rem;
+  margin: 0 auto;
+  float: none;
+  border-color: #f8f9fa;
+  background-color: #f8f9fa;
+}
+
+.control.invalid input {
+  border-color: red;
+}
+
+.btn.login {
+  width: 160px;
+  height: 50px;
+  background-color: #6d597a;
+  color: white;
+  margin-top: 10px;
+}
+.link-forgot {
+  margin-left: 100px;
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+  .login {
+    width: 17rem;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .forgot_pass {
+    text-decoration: none;
+  }
+
+  .link-forgot {
+    margin-left: 0;
+  }
+}
