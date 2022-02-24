@@ -13,6 +13,11 @@ const controller = require("./controllers");
 const jwtGenerator = require("./utils/jwtGenerator");
 const jwt = require("jsonwebtoken");
 
+var http = require("http");
+setInterval(function () {
+  http.get("http://reviewmebook.herokuapp.com/homepage");
+}, 300000); // every 5 minutes (300000)
+
 app.use(express.json());
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
